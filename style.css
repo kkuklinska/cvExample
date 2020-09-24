@@ -1,0 +1,129 @@
+body{
+    background-color: white
+}
+
+
+
+h1 
+{ 
+ color:#81826e;
+ font-size: 30px;
+ font-family:sans-serif;
+ text-align: center;
+
+ 
+}
+
+h2 
+{ 
+ color:#81826e;
+ font-size: 15px;
+font-family: sans-serif;
+    text-align: center;
+    position:relative; top:10px
+        
+ 
+ 
+}
+h3 
+{ 
+ color:#81826e;
+ font-size: 30px;
+font-family: sans-serif;
+    text-align: center
+        
+    
+}
+span
+{
+    color:#81826e;
+    display: flow-root;
+    font-family: sans-serif;
+   
+}
+
+a{
+   
+    
+    position: relative;
+    left: 90%;
+    transform: translateX(-50%);
+   
+}
+
+
+
+.user-avatar
+{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:darkblue;
+    position: relative;
+    left: 51%;
+    transform: translateX(-50%);
+}
+
+header
+{
+    background-image: url(images/ban2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+hr{
+    color: brown;
+    align-self: center;
+    height: 5px;  
+    background: white;
+}
+
+.course {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+    
+  color: #81826e;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%
+}
+
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  color: #81826e
+}
+
+
+.lang {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.lang .language{
+    
+  color: #81826e;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%
+}
+
+.lang .level {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  color: #81826e;
+}
+href{
+    
+}
