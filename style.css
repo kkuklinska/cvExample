@@ -101,6 +101,27 @@ hr{
   max-width: 66.6%;
   color: #81826e
 }
+.workhistory {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.workhistory .title {
+    
+  color: #81826e;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%
+}
+
+.workhistory .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+  color: #81826e
+}
 
 
 .lang {
